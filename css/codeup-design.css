@@ -8,6 +8,10 @@
         padding: 0;
     }
 
+    .ads {
+        display: none;
+    }
+
     .service, .works, .blog, .contact {
         display: none;
     }
@@ -49,12 +53,6 @@
         z-index: 1000;
     }
 
-    /*    display: flex;*/
-    /*    justify-content: center;*/
-    /*    align-items: center;*/
-    /*    height: 105px;*/
-    /*    width: 105px;*/
-    /*}*/
 
     .banner {
         display: flex;
@@ -346,6 +344,12 @@
 nav {
     display: none;
 }
+
+
+        .ads {
+            display: none;
+        }
+
 .banner {
     display: flex;
     justify-content: center;
@@ -439,4 +443,36 @@ nav {
 }
 
 
+@media screen and (min-width: 900px) {
 
+    hr {
+        width: 90%;
+    }
+
+    .pictures {
+        display: grid;
+        grid-template-columns: 70% 30%;
+        grid-template-rows: repeat(4, 1fr) 2fr;
+
+    }
+
+    .ads {
+        display: block;
+    }
+    .last {
+        font-family: 'Abel', sans-serif;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
