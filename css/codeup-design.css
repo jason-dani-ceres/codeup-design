@@ -8,6 +8,10 @@
         padding: 0;
     }
 
+    .service, .works, .blog, .contact {
+        display: none;
+    }
+
     nav ul {
         display: flex;
         justify-content: center;
@@ -339,8 +343,31 @@
 
     @media screen and (min-width: 768px) {
 
+nav {
+    display: none;
+}
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+        .service, .works {
+            display: block;
+            text-decoration: none;
+            color: black;
+            font-family: 'Abel', sans-serif;
+        }
 
+        .blog, .contact {
+            display: block;
+            text-decoration: none;
+            color: black;
+            font-family: 'Abel', sans-serif;
+        }
 
+        .works, .blog {
+            margin: 0 2em;
+        }
 
     .vdwd {
         font-size: 50px;
