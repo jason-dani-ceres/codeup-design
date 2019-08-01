@@ -339,41 +339,77 @@
 
     @media screen and (min-width: 768px) {
 
- .vdwd {
-     font-size: 50px;
- }
 
-.utah {
-    font-size: 40px;
+
+
+    .vdwd {
+        font-size: 50px;
+    }
+
+    .utah {
+        font-size: 40px;
+    }
+
+    .blue {
+        margin: 0 .5em;
+    }
+
+    .orange {
+        margin: 0 .5em;
+    }
+
+    hr {
+        margin: 1em auto;
+        background-color: #CBCBCB;
+        border: none;
+        height: 2px;
+        display: block;
+    }
+
+    .small-circles {
+        width: 270px;
+    }
+
+    .small-circles h1 {
+        font-size: 16px;
+    }
+
+    .pictures1 {
+        display: flex;
+        flex-direction: column;
+        float: left;
+        margin-left:2em;
+    }
+
+    .pictures2 {
+        display: flex;
+        flex-direction: column;
+        float: right;
+        margin-right: 2em;
+    }
+
+    .pictures3 {
+        display: flex;
+        flex-direction: column;
+        float: left;
+        clear: left;
+        margin-left: 2em;
+        margin-top: 2em;
+    }
+
+    .pictures4 {
+        display: flex;
+        flex-direction: column;
+        float: right;
+        margin-right: 2em;
+        margin-top: 2em;
+    }
+
+    .pictures img {
+        height: 60%;
+        width: 250px;
+    }
 }
-
-
-.blue {
-    margin: 0 .5em;
-}
-
-.green {
-
-}
-
-.orange {
-    margin: 0 .5em;
-}
-
-hr {
-
-    margin: 1em auto;
-    background-color: #CBCBCB;
-    border: none;
-    height: 2px;
-    display: block;
-
-
-}
-
-
-
- }
 
 
 
