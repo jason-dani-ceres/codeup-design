@@ -458,28 +458,44 @@ nav {
 
     hr {
         width: 90%;
+        margin-bottom: 4em;
     }
 
-    .work {
-        margin: 0;
-    }
 
     .pictures {
         display: grid;
         grid-template-columns: 30% 30%;
         grid-template-rows: 100px 1fr 1fr;
+        /*grid-column-gap: .5em;*/
+
+
     }
+
+
+    .pictures img {
+        height: 60%;
+        width: 250px;
+        border: .5em solid #E6E6E6;
+        border-radius: 10px;
+    }
+
     .work {
         grid-area: 1/1/2/2;
+
+        margin-right:2em;
+        font-size: 18px;
     }
 
     .pictures1 {
         grid-area: 2/1/3/2;
+        margin: 0 2em 0 1em;
+
     }
 
     .pictures2 {
         grid-area: 3/1/4/2;
-        margin: 0 2em;
+        margin: 0 2em 0 1em;
+
     }
 
     .pictures3 {
@@ -494,7 +510,11 @@ nav {
 
     .ads {
         display: grid;
-        grid-template-rows: 2fr repeat(3, 1fr) 2fr;
+        grid-template-columns: 200px;
+        grid-template-rows: 1fr repeat(3, 1fr) 2fr;
+        position: relative;
+        left:650px;
+        bottom: 550px;
     }
 
     .last {
@@ -582,6 +602,16 @@ nav {
         height: 50px;
         width: 50px;
     }
+
+    .small-circles {
+        width: 270px;
+    }
+
+    .small-circles h1 {
+        font-size: 14px;
+    }
+
+
 
 
 
