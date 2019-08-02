@@ -502,11 +502,12 @@
 
     .ads {
         display: grid;
-        grid-template-columns: 200px;
+        grid-template-columns: 220px;
         grid-template-rows: 1fr repeat(3, 1fr) 2fr;
         position: relative;
         left:650px;
         bottom: 550px;
+        font-family: 'Anton', sans-serif;
     }
 
     .last {
@@ -603,7 +604,26 @@
         font-size: 14px;
     }
 
+    .ipad {
+        display: flex;
 
+    }
+
+    .mobile {
+        display: flex;
+    }
+
+    .head {
+        display: flex;
+    }
+
+    .twitter {
+        font-family: 'Abel', sans-serif;
+    }
+
+    .ads p {
+        margin-left: 10px;
+    }
 
 
 }
