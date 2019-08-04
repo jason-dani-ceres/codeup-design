@@ -501,12 +501,7 @@
     }
 
     .ads {
-        /*display: grid;*/
-        /*grid-template-columns: 220px;*/
-        /*grid-template-rows: 1fr repeat(3, 1fr) 2fr;*/
-        /*position: relative;*/
-        /*left:650px;*/
-        /*bottom: 550px;*/
+        display: block;
         font-family: 'Anton', sans-serif;
     }
 
@@ -702,6 +697,73 @@
     .vdwd {
         margin-top: 3em;
     }
+
+
+
+    .ads {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Anton', sans-serif;
+        grid-area: 1 / 3 / 3 / 3;
+        font-size: 20px;
+        margin-top: 2.5em;
+        margin-left: 2em;
+    }
+
+    .mobile {
+        margin: 3em 0 .5em 0;
+    }
+
+    .head {
+        margin: .5em 0 1em 0;
+    }
+
+    .ipad {
+        margin: .5em 0 .5em 0;
+    }
+
+    .twitter {
+        margin: 2em 0;
+        font-size: 12px;
+    }
+    .th {
+        margin-bottom: 10px;
+    }
+
+    .last {
+        font-size: 15px;
+    }
+
+
+    .maingrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows:  1fr 2fr 1fr;
+
+    }
+
+    .pictures {
+        grid-area: 1 / 1 / 3 / 3;
+
+    }
+
+
+
+    .work {
+        font-size: 15px;
+    }
+
+    .pictures1 {
+        margin-right: 12em;
+    }
+
+
+
+
+
+
+
+
 
 
 }
