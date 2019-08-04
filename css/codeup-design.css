@@ -463,7 +463,7 @@
         display: grid;
         grid-template-columns: 30% 30%;
         grid-template-rows: 100px 1fr 1fr;
-        /*grid-column-gap: .5em;*/
+
     }
 
     .pictures img {
@@ -501,12 +501,12 @@
     }
 
     .ads {
-        display: grid;
-        grid-template-columns: 220px;
-        grid-template-rows: 1fr repeat(3, 1fr) 2fr;
-        position: relative;
-        left:650px;
-        bottom: 550px;
+        /*display: grid;*/
+        /*grid-template-columns: 220px;*/
+        /*grid-template-rows: 1fr repeat(3, 1fr) 2fr;*/
+        /*position: relative;*/
+        /*left:650px;*/
+        /*bottom: 550px;*/
         font-family: 'Anton', sans-serif;
     }
 
@@ -623,6 +623,84 @@
 
     .ads p {
         margin-left: 10px;
+    }
+
+
+}
+
+
+@media screen and (min-width: 1400px) {
+
+    body {
+        background-color: #F0F0F0;
+    }
+
+    .container {
+        max-width: 960px;
+        margin: 1em auto 0 auto;
+    }
+
+    .mdbanner {
+        display: grid;
+        grid-template-columns:repeat(4, 1fr);
+        grid-template-rows: 1fr;
+        position: absolute;
+        top: 20px;
+        margin-top: .5em;
+        height: 7%;
+        width: 100%;
+        font-size: 18px;
+
+    }
+
+    .logo {
+        z-index: 1000;
+        position: relative;
+        left: 470px;
+    }
+    .cd2 {
+        font-family: 'Abel', sans-serif;
+        font-size: 30px;
+        grid-area: 1 / 1 / 2 / 2;
+        /*display: flex;*/
+        /*justify-content: center;*/
+        position: relative;
+        left: 600px;
+        top: 15px;
+    }
+
+    .service {
+        grid-area: 1 / 3 / 2 / 4;
+        position: relative;
+        top: 20px;
+        left: 180px;
+    }
+
+    .works {
+        grid-area: 1 / 3 / 2/ 4;
+        position: relative;
+        top: 20px;
+        left: 240px;
+    }
+
+    .blog {
+        grid-area: 1 / 4 / 2 / 5;
+        position: relative;
+        top: 20px;
+        right: 100px;
+    }
+
+    .contact {
+        grid-area: 1 / 4 / 2 / 5;
+        position: relative;
+        top: 20px;
+        left: 7px;
+    }
+
+
+
+    .vdwd {
+        margin-top: 3em;
     }
 
 
